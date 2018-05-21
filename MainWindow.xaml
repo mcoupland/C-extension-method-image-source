@@ -1,0 +1,12 @@
+﻿<Window x:Class="extensions_and_imagesource.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:extensions_and_imagesource"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <StackPanel Background="Black">
+        <Image Name="testimage" Width="150" Stretch="None" Source="C:\Users\mcoupland\Documents\Visual Studio 2017\Projects\extensions_and_imagesource\extensions_and_imagesource\our_disaster_recovery_plan.png" />
+    </StackPanel>
+</Window>
